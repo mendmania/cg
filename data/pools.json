@@ -1,0 +1,12 @@
+[
+  {
+    "id": "pool-1",
+    "title": "Favorite Programming Language",
+    "questionIds": ["q-1", "q-2"]
+  },
+  {
+    "id": "pool-2",
+    "title": "Best Front-End Framework",
+    "questionIds": ["q-3", "q-4"]
+  }
+]

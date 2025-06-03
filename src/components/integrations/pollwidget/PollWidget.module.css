@@ -1,0 +1,146 @@
+/* src/components/integrations/pollwidget/PollWidget.module.css */
+
+.container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fafafa;
+  font-family: system-ui, sans-serif;
+}
+
+:global(h2) {
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #222;
+}
+
+.balance {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  color: #333;
+  text-align: center;
+}
+
+/* ----------------------------------------
+   1) Pool List
+   ---------------------------------------- */
+.poolList {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.poolItem {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff;
+  cursor: pointer;
+  transition: box-shadow 0.15s ease;
+}
+
+.poolItem:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.poolTitle {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #0055ff;
+}
+
+.poolDescription {
+  margin: 0.25rem 0 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* ----------------------------------------
+   2) Single Question View
+   ---------------------------------------- */
+.questionWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.backButton {
+  align-self: flex-start;
+  margin-bottom: 0.5rem;
+  background: none;
+  border: none;
+  color: #0055ff;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.backButton:hover {
+  text-decoration: underline;
+}
+
+.questionCard {
+  padding: 0.75rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  background: #fff;
+}
+
+.questionText {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #222;
+}
+
+.answerOption {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.answerOption input {
+  margin-right: 0.5rem;
+}
+
+.voteButton {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #0055ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.05rem;
+  cursor: pointer;
+  margin-top: 0.75rem;
+}
+
+.voteButton:hover {
+  background-color: #0040cc;
+}
+
+/* ----------------------------------------
+   3) Feedback Messages
+   ---------------------------------------- */
+.successMessage {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background-color: #e6ffed;
+  color: #0b6623;
+  border: 1px solid #b2f5b8;
+  border-radius: 4px;
+}
+
+.errorMessage {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background-color: #ffe6e6;
+  color: #cc0000;
+  border: 1px solid #f5b2b2;
+  border-radius: 4px;
+}

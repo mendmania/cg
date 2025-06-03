@@ -1,0 +1,42 @@
+[
+  {
+    "id": "q-1",
+    "text": "Which of these is your favorite _compiled_ language?",
+    "answers": [
+      { "id": "a-1", "text": "Rust",    "cost": 5 },
+      { "id": "a-2", "text": "Go",      "cost": 3 },
+      { "id": "a-3", "text": "C++",     "cost": 2 },
+      { "id": "a-4", "text": "Java",    "cost": 1 }
+    ]
+  },
+  {
+    "id": "q-2",
+    "text": "Which of these is your favorite _scripting_ language?",
+    "answers": [
+      { "id": "a-5", "text": "Python",  "cost": 4 },
+      { "id": "a-6", "text": "Ruby",    "cost": 2 },
+      { "id": "a-7", "text": "JavaScript", "cost": 3 },
+      { "id": "a-8", "text": "PHP",     "cost": 1 }
+    ]
+  },
+  {
+    "id": "q-3",
+    "text": "Which front-end framework do you prefer?",
+    "answers": [
+      { "id": "a-9",  "text": "React",   "cost": 3 },
+      { "id": "a-10", "text": "Vue",     "cost": 3 },
+      { "id": "a-11", "text": "Svelte",  "cost": 5 },
+      { "id": "a-12", "text": "Angular", "cost": 2 }
+    ]
+  },
+  {
+    "id": "q-4",
+    "text": "Which CSS-in-JS library do you like best?",
+    "answers": [
+      { "id": "a-13", "text": "styled-components",  "cost": 2 },
+      { "id": "a-14", "text": "Emotion",            "cost": 2 },
+      { "id": "a-15", "text": "Linaria",            "cost": 4 },
+      { "id": "a-16", "text": "Stitches",           "cost": 3 }
+    ]
+  }
+]
