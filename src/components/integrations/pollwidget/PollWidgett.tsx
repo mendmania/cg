@@ -112,7 +112,7 @@ const PollWidget: React.FC = () => {
 
   return (
     <>
-      <div className="max-w-3xl mx-auto my-8 p-8 bg-gradient-to-br from-gray-100 to-gray-50 rounded-xl shadow-lg font-sans relative">
+      <div className="max-w-3xl mx-auto p-8 bg-gradient-to-br from-gray-100 to-gray-50 rounded-xl shadow-lg font-sans relative">
         <header className="flex justify-between items-center mb-6">
           <h2 className="text-3xl font-bold text-gray-800 animate-pulse-slow">
             Car‐Hand Challenge

@@ -143,7 +143,7 @@ const PollWidget: React.FC = () => {
 
   return (
     <>
-      <div className="max-w-md mx-auto my-8 p-6 border border-gray-200 rounded-lg bg-gray-50 font-sans">
+      <div className="max-w-md mx-auto p-6 border border-gray-200 rounded-lg bg-gray-50 font-sans">
         {/* Header */}
         <h2 className="text-center text-2xl font-semibold text-gray-800 mb-6">
           📊 Pick a Pool to Vote In

@@ -10,9 +10,9 @@ type LayoutProps = {
 export default function Layout({ children }: LayoutProps) {
     return (
         <>
-            <Header />
-            <main style={{ minHeight: '80vh', padding: '2rem' }}>{children}</main>
-            <Footer />
+            {/* <Header /> */}
+            <main style={{ minHeight: '80vh' }}>{children}</main>
+            {/* <Footer /> */}
         </>
     );
 }
