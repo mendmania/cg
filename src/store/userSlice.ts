@@ -10,7 +10,7 @@ export interface UserState {
 const initialState: UserState = {
   id: "user-1",
   name: "Mendim Arifaj",
-  coins: 20, // initial balance; you can load this from an API later
+  coins: 2000, // initial balance; you can load this from an API later
 };
 
 const userSlice = createSlice({

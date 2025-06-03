@@ -1,0 +1,41 @@
+{
+  "title": "Last to Remove Hand Wins",
+  "options": [
+    {
+      "id": "harder-circle",
+      "label": "Make Circle Smaller",
+      "description": "Shrink the circle to make standing harder",
+      "cost": 15
+    },
+    {
+      "id": "easier-circle",
+      "label": "Make Circle Larger",
+      "description": "Expand the circle to make standing easier",
+      "cost": 10
+    },
+    {
+      "id": "kfc",
+      "label": "Send KFC",
+      "description": "Send a bucket of KFC to the player (distraction)",
+      "cost": 20
+    },
+    {
+      "id": "shawarma",
+      "label": "Send Shawarma",
+      "description": "Send a shawarma combo to the player",
+      "cost": 18
+    },
+    {
+      "id": "burger-king",
+      "label": "Send Burger King",
+      "description": "Send a BK meal to the player",
+      "cost": 22
+    },
+    {
+      "id": "one-foot",
+      "label": "Stand on One Foot",
+      "description": "Force the player to stand on one foot instead of two",
+      "cost": 25
+    }
+  ]
+}
